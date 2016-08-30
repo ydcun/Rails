@@ -22,3 +22,17 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+
+
+
+备忘：
+- 创建controller
+> rails generate controller welcome index 
+
+- 创建资源
+> config/routes.rb   resources:articles
+> rake routes 
+
+- 创建模型
+> rails generate model Article title:string text:text
